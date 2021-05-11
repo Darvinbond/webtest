@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+.ser{
+	height: 260px;
+	background-color: black;
+	text-align: center
+}
+#main{
+	color: whitesmoke;
+	font-size: 90px;
+	font-family: 'Zilla Slab Highlight', cursive;
+}
+.c p{
+	color: whitesmoke;
+	font-size: 40px;
+}
+.c p i{
+	color: whitesmoke;
+	font-size: 30px;
+}
+/*nav{
+	border-bottom: 3px solid whitesmoke;
+}*/
+.rig{
+	/* font-family: 'Pacifico', cursive; */
+	font-family: 'Mukta', sans-serif;
+	font-size: 10px !important;
+}
+.bb{
+	background-color: black;
+	height: 600px;
+	background-image: url("../img/ss.jpg") !important;
+	background-size: cover;
+
+	margin-bottom: 100px;
+}
+.tp{
+	height: 600px;
+	padding-left: 100px;
+	padding-top: 200px;
+	background-color: rgba(0,0,0,0.6);
+}
+#about{
+	margin-bottom: 170px
+}
+.add{
+	font-size: 20px
+}
+.input-group input{
+	background-color: #f8f6ff;
+	border:0px;
+	border-radius: 0px;
+	border-bottom: 2px solid #212529;
+}
+.input-group textarea{
+	background-color: #f8f6ff;
+	width: 100%;
+	height: 200px;
+	border:0px;
+	border-radius: 0px;
+	border-bottom: 2px solid #212529;
+}
+#services{
+	margin-bottom: 170px
+}
+.slide{
+	width: 100% !important;
+	/* font-family: 'Amatic SC', cursive; */
+	font-family: 'Mukta', sans-serif;
+	font-size: 21px;
+	/*position: relative;*/
+}
+.fd{
+	/* font-family: 'Amatic SC', cursive; */
+	font-family: 'Mukta', sans-serif;
+	font-size: 20px;
+}
+body{
+	background-color: #ffffff;
+	/*font-family: 'Train One', cursive;*/
+	/*font-family: 'Zilla Slab Highlight', cursive;*/
+	/* font-family: 'Amatic SC', cursive; */
+	font-family: 'Mukta', sans-serif;
+}
+button{
+	color: white;
+	font-weight: bold;
+}
+.nav-item{
+	width: 86px;
+}
+.icon ul{
+	list-style-type: none;
+	/*position:relative;*/
+	text-align: center; !important;
+	margin-right: 40px;
+	width: 50px;
+	/*float: right;*/
+}
+#tel{
+	width: 50px;
+}
+li img{
+	width: 40px;
+	margin-top: 10px;
+}
+li img:hover{
+	cursor: pointer;
+}
+.ser img{
+	width: 100%;
+	height: inherit;
+}
+.ser img:hover{
+	cursor: pointer;
+}
+.ser p:hover{
+	cursor: pointer;
+}
+.point{
+	font-weight: bold;
+}
+.ser p{
+	position: relative;
+	top: -150px;
+	/*left: 110px;*/
+	color: whitesmoke;
+	font-size: 25px;
+}
+.ser_sec{
+	margin-top: 40px;
+}
+.section{
+	font-size: 40px;
+	/*font-weight:bold;*/
+	/*font-family: sans-serif;*/
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-weight: bold;
+	/*font-family: 'Train One', cursive;*/
+	/*font-family: 'Zilla Slab Highlight', cursive;*/
+	text-align: center;
+}
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.col-md-3{
+	margin-bottom: 20px;
+}
+.ser{
+  -webkit-box-shadow: 0 12px 6px -6px #777;
+     -moz-box-shadow: 0 12px 6px -6px #777;
+          box-shadow: 0 12px 6px -6px #777;
+         border-radius: 7px;
+}
+.ser img{
+	border-radius: 7px;
+}
+.modal{
+	font-size: 30px;
+}
+.bk{
+	background-color: black;
+	border-radius: .25rem;
+}
+.icn{
+	position: absolute;
+  	top: 35%;
+  	left: 48%;
+  	transform: translate(-50%, -50%);
+	color: whitesmoke;
+	font-size:90px !important;
+}
+.modal-title{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Zilla Slab Highlight', cursive;
+
+}
+.modal-header{
+	text-align: center !important;
+	margin: auto;
+}
+.card-img-top:hover{
+	cursor: pointer;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl, .fl-fa{
+  background: #212529;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 200px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px !important;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+.fl-fl:hover, .fl-fa:hover{
+	cursor: pointer;
+}
+.float-fb {
+  top: 288px;
+}
+
+.float-tw {
+  top: 341px;
+}
+
+.float-gp {
+  top: 394px;
+}
+
+.float-rs {
+  top: 447px;
+}
+
+.float-ig {
+  top: 500px;
+}
+
+.float-is {
+  top: 590px;
+}
+
+
+.pp{
+	height: 300px;
+	background-image: url("../img/mrdongok-EpV-wNDr9OM-unsplash.jpg") !important;
+	background-size: cover;
+	margin-bottom: 100px;
+}
+.ttt{
+	height: 300px;
+	padding-left: 100px;
+	padding-top: 200px;
+	background-color: rgba(0,0,0,0.6);
+}
+.b p{
+	color: whitesmoke;
+	font-size: 60px;
+	font-weight: bold;
+
+}
+.b{
+	/*text-align: center;*/
+}
+.sub-sec{
+	font-size: 20px;
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-weight: bold;
+}
